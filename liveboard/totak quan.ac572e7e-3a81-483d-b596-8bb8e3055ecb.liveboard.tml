@@ -1,0 +1,33 @@
+guid: ac572e7e-3a81-483d-b596-8bb8e3055ecb
+liveboard:
+  name: totak quan
+  visualizations:
+  - id: Viz_1
+    answer:
+      name: Total Quantity
+      tables:
+      - id: Parameters WS
+        name: Parameters WS
+        fqn: 540c4503-5bc7-4727-897b-f7f4d78dd2ff
+      search_query: "[Quantity] [Order Date].yesterday"
+      answer_columns:
+      - name: Total Quantity
+      table:
+        table_columns:
+        - column_id: Total Quantity
+          headline_aggregation: SUM
+        ordered_column_ids:
+        - Total Quantity
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: KPI
+        chart_columns:
+        - column_id: Total Quantity
+        axis_configs:
+        - "y":
+          - Total Quantity
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"Total Quantity\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"1856c711-88d9-4d2e-b4cc-e286bd935767\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Quantity\"],\"isOpposite\": false}},{\"id\": \"fa01f879-fb6b-490c-998d-ecf0bb307615\",\"properties\": {\"axisType\": \"X\"}}]}"
+      display_mode: CHART_MODE
+    viz_guid: ace6d45b-00cc-4a1e-b0fb-fee302acb813
