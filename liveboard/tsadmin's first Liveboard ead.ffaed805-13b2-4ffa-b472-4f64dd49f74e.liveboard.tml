@@ -1,6 +1,6 @@
 guid: ffaed805-13b2-4ffa-b472-4f64dd49f74e
 liveboard:
-  name: tsadmin's first Liveboard
+  name: tsadmin's first Liveboard ead
   visualizations:
   - id: Viz_1
     answer:
@@ -36,3 +36,7 @@ liveboard:
         client_state: ""
       display_mode: CHART_MODE
     viz_guid: 3e2645a2-817e-4cc9-a03c-877cd78db43b
+  layout:
+    tiles:
+    - visualization_id: Viz_1
+      size: MEDIUM
