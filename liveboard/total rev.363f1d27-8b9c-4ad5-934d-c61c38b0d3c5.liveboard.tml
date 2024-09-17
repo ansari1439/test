@@ -1,0 +1,38 @@
+guid: 363f1d27-8b9c-4ad5-934d-c61c38b0d3c5
+liveboard:
+  name: total rev
+  visualizations:
+  - id: Viz_1
+    answer:
+      name: Total Revenue by Day of week Order Date
+      tables:
+      - id: Parameters WS
+        name: Parameters WS
+        fqn: 540c4503-5bc7-4727-897b-f7f4d78dd2ff
+      search_query: "[Revenue] [Order Date].may [Order Date].'day of week'"
+      answer_columns:
+      - name: Day of Week(Order Date)
+      - name: Total Revenue
+      table:
+        table_columns:
+        - column_id: Day of Week(Order Date)
+          headline_aggregation: COUNT_DISTINCT
+        - column_id: Total Revenue
+          headline_aggregation: SUM
+        ordered_column_ids:
+        - Day of Week(Order Date)
+        - Total Revenue
+        client_state: ""
+      chart:
+        type: LINE
+        chart_columns:
+        - column_id: Day of Week(Order Date)
+        - column_id: Total Revenue
+        axis_configs:
+        - x:
+          - Day of Week(Order Date)
+          "y":
+          - Total Revenue
+        client_state: ""
+      display_mode: CHART_MODE
+    viz_guid: 35dca2b0-9ce4-4eaa-80f5-92d818a483e7
