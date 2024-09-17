@@ -1,0 +1,33 @@
+guid: dfcde702-5df8-48c9-897e-c6de3ff34583
+liveboard:
+  name: total dis
+  visualizations:
+  - id: Viz_1
+    answer:
+      name: Total Discount
+      tables:
+      - id: Parameters WS
+        name: Parameters WS
+        fqn: 540c4503-5bc7-4727-897b-f7f4d78dd2ff
+      search_query: "[Discount] [Order Date].'last month'"
+      answer_columns:
+      - name: Total Discount
+      table:
+        table_columns:
+        - column_id: Total Discount
+          headline_aggregation: SUM
+        ordered_column_ids:
+        - Total Discount
+        client_state: ""
+        client_state_v2: "{\"tableVizPropVersion\": \"V1\"}"
+      chart:
+        type: KPI
+        chart_columns:
+        - column_id: Total Discount
+        axis_configs:
+        - "y":
+          - Total Discount
+        client_state: ""
+        client_state_v2: "{\"version\": \"V4DOT2\",\"chartProperties\": {\"chartSpecific\": {\"pivotSummariesState\": {}}},\"columnProperties\": [{\"columnId\": \"Total Discount\",\"columnProperty\": {}},{\"columnId\": \"Measure names\",\"columnProperty\": {}},{\"columnId\": \"Measure values\",\"columnProperty\": {}}],\"axisProperties\": [{\"id\": \"28166655-4fb9-4405-972e-1b221ab6fcd9\",\"properties\": {\"axisType\": \"Y\",\"linkedColumns\": [\"Total Discount\"],\"isOpposite\": false}},{\"id\": \"ff86f473-c026-48ca-a62c-23da83259ef3\",\"properties\": {\"axisType\": \"X\"}}]}"
+      display_mode: CHART_MODE
+    viz_guid: cccf980d-e909-47db-8328-fc687ab9db3c
